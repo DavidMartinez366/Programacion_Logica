@@ -30,8 +30,7 @@ vinculos_entrevista = (
 def hechos_entrevista(animal):
     animal = animal.lower()
     if animal in hechos_entrevistas:
-        print(f"Hechos para {animal}: {hechos_entrevistas[animal]}") #Uso de tuplas
-
+        print(f"Hechos para {animal}: {hechos_entrevistas[animal]}") 
 if __name__ == "__main__":
     hechos_entrevista("ardilla")
     print("\n")
